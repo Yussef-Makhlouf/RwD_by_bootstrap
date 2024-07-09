@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="css/signupStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Form Validation</title>
+
+</head>
+
+<body>
+    <!-- i want to make a signup form with images take a half of container and form take another half with responsive -->
+
+    <div class="col-md-6 container-fluid my-5 mainForm  d-flex">
+    
+    <form id="signupForm" action="login.html" class="p-5 signup m-auto needs-validation">
+        <div class="text-center ">
+            <h1 class="text-center text-uppercase">Sign-Up</h1>
+        </div>
+        <div class="row my-4">
+            <div class="col">
+                <input type="text" id="firstName" class="form-control" placeholder="First name"
+                    aria-label="First name">
+                <div id="firstNameError" class="error-message"></div>
+            </div>
+            <div class="col">
+                <input type="text" id="lastName" class="form-control" placeholder="Last name"
+                    aria-label="Last name">
+                <div id="lastNameError" class="error-message"></div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <input type="email" id="email" class="form-control" aria-describedby="emailHelpId"
+                placeholder="abc@mail.com" />
+            <div id="emailError" class="error-message"></div>
+        </div>
+        <div class="mb-3">
+            <input type="password" id="password" class="form-control" placeholder="password" />
+            <div id="passwordError" class="error-message"></div>
+        </div>
+    <button type="submit" class="btn btn-success">Sign Up</button>
+    </form>
+    </div>
+    <script src="/js/formValidation.js"></script>
+
+
+</body>
+
+</html>

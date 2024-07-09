@@ -1,0 +1,70 @@
+/* index1.css */
+
+
+:root {
+    --limeGreen: hsl(136, 65%, 51%, 1);
+    --brightCyan: hsl(192, 70%, 51%, 1);
+    --grayishBlue: hsl(233, 8%, 62%, 1);
+    --darkGrayishBlue: hsl(233, 8%, 79%, 1);
+    --veryDarkGrayishBlue: hsl(220, 16%, 96%, 1);
+    --veryLightGray: hsl(0, 0%, 98%, 1);
+    --white: hsl(0, 0%, 100%, 1);
+}
+.public-sans-100 {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.card-author {
+    font-size: 0.875rem;
+}
+
+.card-text {
+    font-size: 0.875rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* .firstCard ,
+.secundCard,
+.thirdCard,
+.fourCard {
+   width: 25%;
+
+} */

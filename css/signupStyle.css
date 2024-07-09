@@ -1,0 +1,29 @@
+*{
+    text-transform: capitalize;
+}
+.mainForm{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.signup{
+display: flex;
+flex-direction: column;
+
+
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875em;
+}
+body{
+    background-image: url(/assets/forbank.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
